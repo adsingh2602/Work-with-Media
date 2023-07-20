@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.M);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.jaat);
         mediaPlayer.start();
+       // mediaPlayer.stop();
     }
 }
